@@ -1,0 +1,308 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(250, 250, 250);
+  padding: 23px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(16, 13, 13);
+  border-bottom: 1px solid whitesmoke;
+  z-index: 10;
+}
+.navbar h2 {
+  text-transform: uppercase;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.navbar ul li:hover{
+  color: #608AFD;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(/intro-bg.jpg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.hero-section h1 {
+  font-size: 70px;
+  font-weight: 700;
+  width: 600px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.hero-section p {
+  width: 800px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.hero-section button {
+  font-size: 15px;
+  padding: 12px;
+  width: 120px;
+  border-radius: 150px;
+  border: none;
+  margin-top: 50px;
+  background-color: #3f50e7eb;
+  color: white;
+  cursor: pointer;
+}
+.hero-section button:hover{
+  background-color: #0820f5eb;
+  box-shadow: rebeccapurple 5rem;
+}
+
+.features {
+  background-color: #F6F6F6;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+}
+.features h1 {
+  color: black;
+  font-size: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+.features h1::before {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 5px;
+  bottom: -5px;
+  background-color: white;
+}
+
+.features .cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+.features .cards .card {
+  background-color: #F6F6F6;
+  padding: 20px;
+  width: 300px;
+  margin: 0 10px;
+}
+.features .cards .card i{
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: black;
+  border-radius: 40px ;
+  -webkit-border-radius: 40px ;
+  -moz-border-radius: 40px ;
+  -ms-border-radius: 40px ;
+  -o-border-radius: 40px ;
+}
+
+.features .cards .card h3{
+  color: black;
+  font-family: raleway;
+}
+
+.features .cards .card p{
+  color: #C5C6C5;
+  line-height: 20px;
+  margin-top: 15px;
+}
+.about {
+  display: flex;
+  background-color: #350404;
+  color: white;
+  text-align: center;
+  padding: 60px 10px;
+  justify-items: center;
+}
+.about .about-section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+
+.about .about-section .about-right h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 60px;
+  position: relative;
+}
+.about h1::before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 5px;
+  bottom: -10px;
+  background-color: white;
+}
+.about img{
+  border: 1px solid white;
+}
+
+.about .about-section .about-right p{
+  text-align: left;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.about .about-section .para2 i{
+  color: rgb(255, 166, 0);
+  margin-right: 10px;
+}
+
+
+.services {
+  background-color: #608AFD;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+}
+.services h1 {
+  font-size: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+.services h1::before {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 5px;
+  bottom: -5px;
+  background-color: white;
+}
+.services .cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 30px auto 0px auto;
+}
+.services .top-para{
+  margin: 40px 0;
+  font-size: 20px;
+}
+.services .cards .card{
+  margin: 0 10px;
+  padding: 20px;
+}
+.services .cards .card i{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.services .cards .card p{
+  margin: 10px 0;
+  font-size: 18px;
+}
+.gallery{
+  text-align: center;
+  color: black;
+  background-color: #FFFFFF;
+  padding: 30px 0;
+}
+.gallery h1 {
+  font-size: 50px;
+  position: relative;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.gallery h1::before {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 5px;
+  bottom: -5px;
+  background-color: white;
+}
+.gallery p{
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 40px 0;
+}
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+  gap: 10px;
+  padding-bottom: 20px;
+  
+}
+.images .img{
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.images img{
+  border: 1px solid white;
+  width: 100%;
+  height: 110%;
+}
+.images .img::before{
+  content: "PROJECT TITLE";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  transition: .4s;
+  position: absolute;
+  top: 100%;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 103, 211, 0.438);
+  z-index: 2;
+}
+.images .img:hover::before{
+  top: 0px;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: rgb(199, 198, 198);
+  padding: 25px;
+  color: #202020;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+}
