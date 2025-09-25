@@ -168,6 +168,9 @@ body {
 }
 
 .about .about-section .about-right h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
   margin-bottom: 30px;
   text-align: left;
