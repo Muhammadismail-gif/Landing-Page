@@ -123,8 +123,11 @@ body {
   
 }
 .features .cards .card i{
-  width: 70px;
-  height: 60px;
+    display: flex inline;
+  width: 90px;
+  height: 90px;
+  justify-content: center; /* Horizontally centers the item */
+  align-items: center;     /* Vertically centers the item */
   background-image: linear-gradient(to right, #007bff, #00c6ff);
   font-size: 40px;
   margin-bottom: 10px;
@@ -149,8 +152,8 @@ body {
 }
 .about {
   display: flex;
-  background-color: #350404;
-  color: white;
+  background-color: #FFFFFF;
+  color: black;
   text-align: center;
   padding: 60px 10px;
   justify-items: center;
@@ -171,6 +174,7 @@ body {
   margin-left: 60px;
   position: relative;
 }
+
 .about h1::before {
   content: "";
   position: absolute;
@@ -185,22 +189,32 @@ body {
 
 .about .about-section .about-right p{
   text-align: left;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: lighter;
+  font-style: italic;
   margin-bottom: 30px;
   margin-left: 60px;
+  color: #C4C4C4;
 }
 .about .about-section .para2 i{
   color: rgb(255, 166, 0);
   margin-right: 10px;
 }
 
+.about .about-section .about-right pre{
+   font-size: 15px;
+  line-height: 10px;
+  font-weight: lighter;
+  color: #C4C4C4;
+}
 
 .services {
-  background-color: #608AFD;
+  background-image: linear-gradient(to right, #007bff, #00c6ff);
   color: white;
   text-align: center;
   padding: 40px 10px;
+  align-items: center;
 }
 .services h1 {
   font-size: 50px;
@@ -218,25 +232,43 @@ body {
 .services .cards{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 80%;
   margin: 30px auto 0px auto;
 }
 .services .top-para{
   margin: 40px 0;
   font-size: 20px;
+  align-items: center;
 }
 .services .cards .card{
   margin: 0 10px;
-  padding: 20px;
+  padding: 10px;
+  align-items: center;
 }
 .services .cards .card i{
-  font-size: 50px;
-  margin-bottom: 20px;
+  display: flex inline;
+  width: 100px;
+  height: 100px;
+  justify-content: center; /* Horizontally centers the item */
+  align-items: center;     /* Vertically centers the item */
+  background-image: linear-gradient(to right, #007bff, #00c6ff);
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: white(0, 32%, 87%);
+  border-radius: 50px ;
+  -webkit-border-radius: 50px ;
+  -moz-border-radius: 50px ;
+  -ms-border-radius: 50px ;
+  -o-border-radius: 50px ;
+  justify-items: center;
 }
 .services .cards .card p{
-  margin: 10px 0;
-  font-size: 18px;
+  margin: 1px 0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .gallery{
   text-align: center;
