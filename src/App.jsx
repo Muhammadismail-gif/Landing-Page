@@ -6,8 +6,9 @@ import Gellery from './Gellery'
 import Header from './Header'
 import HeroSection from './HeroSection'
 import Images from './Images'
-import Review from './Review'
 import Services from './Services'
+import TeamSection from './TeamSection'
+import Testimonials from './Teastimonials'
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
    <div className='img'> <Images imgSrc="about.jpg.jpeg" /></div>
      <div className='img'> <Images imgSrc="02-small.jpg.jpeg" /></div>
  </div>
+ <Testimonials/>
+ <TeamSection />
  <Footer />
     </>
   )
